@@ -1,11 +1,24 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>|
-    <br>
-    <router-link to="/databinding/string">String DataBinding</router-link>|
-    <router-link to="/databinding/html">Html DataBinding</router-link>|
-    <router-link to="/databinding/input">Input DataBinding</router-link>
+    <router-link to="/about">About</router-link>
+    <br/>
+    <br/> [단방향 통신 예제] <br/>
+    <router-link to="/databinding/string">String</router-link> |
+    <router-link to="/databinding/html">Html</router-link>
+    <br/>
+    <br/> [양방향 통신 예제] <br/>
+    <router-link to="/databinding/input">Input</router-link> |
+    <router-link to="/databinding/select">Select</router-link> |
+    <router-link to="/databinding/checkbox">Checkbox</router-link> |
+    <router-link to="/databinding/radio">Radio</router-link>
+    <br/>
+    <br/> html 속성값 databinding
+    <router-link to="/databinding/attr">Attr databinding</router-link> |
+    <br/>
+    <br/> list databinding
+    <router-link to="/databinding/list">List databinding</router-link> |
+    <router-link to="/databinding/table">Table databinding</router-link>
   </nav>
   <router-view/>
 </template>
